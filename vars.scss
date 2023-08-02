@@ -1,0 +1,16 @@
+@mixin button_style($color:#fff,$background:#000){
+    width: 130px;
+    height: 30px;
+    border-radius:10px;
+    border-color: #000;
+    color: $color;
+    background: $background;
+    font-family: $font-button;
+    font-weight: 400;
+}
+
+$font-principal: 'Raleway';
+
+$font-title: 'Abril Fatface';
+
+$font-button: 'Poppins';

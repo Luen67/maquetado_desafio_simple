@@ -1,0 +1,333 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu__container {
+  height: 120px;
+}
+
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-menu__item {
+  display: flex;
+}
+
+.nav-menu__item .logo__img {
+  margin-left: 15px;
+}
+
+.nav-menu__shopping-cart-item .div__shopping-cart {
+  position: relative;
+  margin-top: 20px;
+}
+
+.nav-menu__list li {
+  list-style: none;
+}
+
+.main__container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-principal__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-principal__container .p__slogan {
+  color: #858585;
+  font-family: "Raleway";
+  letter-spacing: 2px;
+}
+.section-principal__container .h1__title {
+  margin-top: 30px;
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.div-button__container {
+  width: 100%;
+  height: 40px;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.div-button__container .cursos__button {
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: #000;
+  color: #fff;
+  background: #000;
+  font-family: "Poppins";
+  font-weight: 400;
+  margin-right: 10px;
+}
+.div-button__container .shop__button {
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: #000;
+  color: black;
+  background: #fff;
+  font-family: "Poppins";
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.piano-principal__img {
+  margin-top: 25px;
+}
+
+.section-new-product__container {
+  background: url(images/bg-new-product.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+.section-new-product__container .title-new-product__container {
+  /*background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(images/piano-new.svg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-new-product__container .title-new-product__container .new-product__title {
+  font-family: "Abril Fatface";
+  width: 300px;
+  text-align: center;
+}
+.section-new-product__container .new-product__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-new-product__container .new-product__container .name-product__title {
+  font-family: "Abril Fatface";
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+.section-new-product__container .new-product__container .ratio__container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+  width: 50%;
+}
+.section-new-product__container .new-product__container .ratio__container .ratio__text {
+  font-family: "Raleway";
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+.section-new-product__container .new-product__container .ratio__container .ratio__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.section-new-product__container .new-product__container .price__text {
+  font-family: "Abril Fatface";
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+.section-new-product__container .new-product__container .description__text {
+  font-family: "Raleway";
+  color: #fff;
+  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 20px;
+}
+.section-new-product__container .new-product__container .spec__items {
+  margin-top: 20px;
+  display: flex;
+  font-family: "Raleway";
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  width: 50%;
+  justify-content: space-between;
+}
+.section-new-product__container .new-product__container .add-cart__button {
+  margin-top: 20px;
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: #000;
+  color: #fff;
+  background: #000;
+  font-family: "Poppins";
+  font-weight: 400;
+  width: 220px;
+}
+
+.section-contact__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgb(116, 116, 116)), url(images/bg-contact.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 850px;
+}
+.section-contact__container .contact__title {
+  font-family: "Abril Fatface";
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  width: 300px;
+  text-align: center;
+}
+.section-contact__container .contact__text {
+  font-family: "Raleway";
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+}
+.section-contact__container .contact__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+.section-contact__container .contact__form .contact__label {
+  font-family: "Raleway";
+  font-weight: 800;
+}
+.section-contact__container .contact__form .contact__input {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  height: 30px;
+  border-color: #fff;
+  width: 92%;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 5px;
+}
+.section-contact__container .contact__form .contact__textarea {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-color: #fff;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.section-contact__container .contact__form .contact__button {
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: #000;
+  color: #fff;
+  background: #000;
+  font-family: "Poppins";
+  font-weight: 400;
+  width: 90%;
+}
+
+.section-partners__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 450px;
+  background: linear-gradient(#6F6F6F, #fff);
+  margin-top: -1px;
+}
+.section-partners__container .partners__title {
+  font-family: "Abril Fatface";
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  width: 300px;
+  text-align: center;
+}
+.section-partners__container .partners__border-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.section-partners__container .partners__border-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.section-partners__container .partners-name__container {
+  background: black;
+  width: 90%;
+  height: 90px;
+}
+.section-partners__container .partners-name__container .partners-img__container {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: #808080;
+  border-radius: 50%;
+  border-color: #fff;
+  border: 2px;
+  margin-left: 5px;
+}
+.section-partners__container .partners-name__container .partners-img__container .partner__img {
+  width: 50%;
+}
+.section-partners__container .partners-name__container .partners-img__container--left {
+  margin-left: 5px;
+}
+.section-partners__container .partners-name__container .partners-img__container--right {
+  margin-right: 5px;
+}
+.section-partners__container .partners-name__container .partner__text {
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 30px;
+}
+.section-partners__container .partners-name__container .partner__text--left {
+  margin-left: 25px;
+}
+.section-partners__container .partners-name__container .partner__text--right {
+  margin-right: 75px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__container .footer-social__items {
+  display: flex;
+}/*# sourceMappingURL=styles-mobile.css.map */
